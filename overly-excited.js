@@ -15,13 +15,15 @@ function addExcitement(theWordArray) {
         let currentWord = theWordArray[i];
 
         // Add exclamation mark variable
-        let exclamation = "! ";
+        let exclamation = "!";
 
         // Conditional statement added to concatenation
-        if ( i !== 0 && i % 3 === 2) {
-            buildMeUp += currentWord += exclamation;
+        if (i % 3 === 2) {
+            exclamation = "!".repeat(i / 3);
+            buildMeUp += currentWord += exclamation += " ";
         } else {
             buildMeUp += currentWord += " "
+            
         }
         // Print buildMeUp to the console
         console.log(buildMeUp)
