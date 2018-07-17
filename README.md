@@ -2,12 +2,14 @@
 
 ### Objectives 
 
-1. Stacking words in an array
+1. Stack words in an array.
 
-2. Adding conditions to the loop
+2. Add conditions to the loop.
 
-3. Iterating through conditions
+3. Iterate through conditions.
 
-4. Adding a function argument to change the iterating conditional
+4. Add a function argument to change the iterating conditional.
 
-5. Change function to arrow function 
+5. Add new sentence to pass through function.
+
+6. Change function to arrow function. 

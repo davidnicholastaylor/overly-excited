@@ -1,5 +1,7 @@
 // Create an array that contains the words in the sentence
-let sentence = ["The", "walrus", "danced", "through", "the", "trees", "in", "the", "light", "of", "the", "moon"];
+// let sentence = ["The", "walrus", "danced", "through", "the", "trees", "in", "the", "light", "of", "the", "moon"];
+
+let newSentence = ["Allmight", "taught", "Deku", "to", "fight", "smart", "and", "rebuked", "him", "for", "foolish", "actions"]
 
 /*
     The addExcitement function should be an impure function, and accept
@@ -31,4 +33,4 @@ let addExcitement = (theWordArray, symb) => {
 }
 
 // Invoke the function and pass in the array
-addExcitement(sentence, "?")
+addExcitement(newSentence, "~")
