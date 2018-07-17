@@ -9,3 +9,5 @@
 3. Iterating through conditions
 
 4. Adding a function argument to change the iterating conditional
+
+5. Change function to arrow function 
