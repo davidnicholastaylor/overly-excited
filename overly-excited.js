@@ -6,30 +6,27 @@ let sentence = ["The", "walrus", "danced", "through", "the", "trees", "in", "the
     the array as the sole argument. It should iterate over the array
     and output the words to the browser console.
 */
-function addExcitement(theWordArray) {
+function addExcitement(theWordArray, symb) {
 
     // Each time the for loop executes, you're going to add one more word to this string
     let buildMeUp = ""
+    let wordCount = 0;
 
     for (let i = 0; i < theWordArray.length; i++) {
+        wordCount ++;
         let currentWord = theWordArray[i];
-
+        buildMeUp += " " + currentWord;
         // Add exclamation mark variable
-        let exclamation = "!";
 
         // Conditional statement added to concatenation
-        if (i % 3 === 2) {
-            exclamation = "!".repeat(i / 3);
-            buildMeUp += currentWord += exclamation += " ";
-        } else {
-            buildMeUp += currentWord += " "
-            
-        }
+        if (wordCount % 3 === 0) {
+            buildMeUp = buildMeUp + symb.repeat(wordCount/3);
+        } 
         // Print buildMeUp to the console
         console.log(buildMeUp)
     }
-
+    
 }
 
 // Invoke the function and pass in the array
-addExcitement(sentence)
+addExcitement(sentence, "?")
